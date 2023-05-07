@@ -49,7 +49,7 @@ function timerRender() {
   timeDifMs = selectedDate - currentDate;
   if (timeDifMs <= '0') {
     clearInterval(timerId);
-    refs.start.disabled = false;
+    // refs.start.disabled = false;
   } else {
     timeRender(convertMs(timeDifMs));
   }
