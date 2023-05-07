@@ -16,3 +16,23 @@ img {
   display: block;
   max-width: 100%;
 }
+.timer {
+  display: flex;
+  gap: 10px;
+ }
+ .field {
+ 
+ }
+ .label {
+  display: block;
+  text-transform: uppercase;
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: 12px;
+  font-weight: bold;
+ }
+ .value {
+  display: block;
+  text-align: center;
+   font-size: 30px;
+   font-weight: normal;
+ }
